@@ -59,6 +59,14 @@ header {
     letter-spacing: 0.6px;
     display: flex;
     align-items: center;
+    span {
+      padding: 10px;
+      border-radius: 5px;
+      &:hover {
+        background-color: $color-green;
+        color: #fff;
+      }
+    }
     .fas {
       margin-right: 1rem;
       display: inline-flex;
