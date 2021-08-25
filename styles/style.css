@@ -232,6 +232,14 @@ header .search-bar {
   margin-bottom: 2rem;
 }
 
+.listings .listings-grid .listings-gridElement:hover {
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
+
 .listings .listings-grid .listings-gridElement:last-child {
   padding-right: 0;
 }
