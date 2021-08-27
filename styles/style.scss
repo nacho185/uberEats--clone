@@ -42,6 +42,10 @@ header {
     align-items: center;
   }
   .logo {
+    &:hover {
+      transform: scale(0.95);
+      cursor: pointer;
+    }
     h1 {
       font-weight: 300;
       span {

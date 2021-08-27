@@ -47,6 +47,12 @@ header .container {
           align-items: center;
 }
 
+header .logo:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  cursor: pointer;
+}
+
 header .logo h1 {
   font-weight: 300;
 }
