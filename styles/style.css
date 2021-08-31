@@ -86,6 +86,8 @@ header .header-option span {
 header .header-option span:hover {
   background-color: #10ad61;
   color: #fff;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 header .header-option .fas {
